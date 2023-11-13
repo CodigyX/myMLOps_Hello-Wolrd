@@ -18,7 +18,7 @@ jobs:					# A workflow run is made up of one or more jobs,
 # which run in parallel by default. Each job runs
 # in a runner environment specified by runs-on.
   # This workflow contains a single job called "build".
-  helloworld:
+  myMLOps_Hello-World:
     runs-on: ubuntu-latest 	# The type of runner that the job will run on. 
     container: adsoft/aiops:latest # It is used to to create a container to run any
   # steps in a job that don't already specify a 
@@ -38,7 +38,7 @@ jobs:					# A workflow run is made up of one or more jobs,
 # (source here) with the ref checkout@v2. This ref 
 # only refers to the github action version 
 # (nothing to do with your repo)
-    - name: hello-world		# A name for your step to display on GitHub
+    - name: myMLOps_Hello-World		# A name for your step to display on GitHub
       run: echo “hello world workflows …” # It Runs command-line programs using the 
   # operating system's shell.
 
